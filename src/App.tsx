@@ -45,7 +45,7 @@ function App() {
       const a = document.createElement("a");
       a.href = canvasRef.current?.toDataURL() || "";
 
-      a.download = `Thumbnail_${file?.name}`;
+      a.download = `Thumbnail_${file?.name}.png`;
 
       a.hidden = true;
 
